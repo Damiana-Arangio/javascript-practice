@@ -26,7 +26,7 @@
 ****************/
 
 // Creazione promise
-const recuperaUtenti = new Promise((resolve) => {
+const recuperaUtenti = new Promise((resolve, reject) => {
     const utenti = [
         { id: 1, nome: "Anna" },
         { id: 2, nome: "Marco" },

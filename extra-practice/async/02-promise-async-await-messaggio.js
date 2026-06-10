@@ -19,7 +19,7 @@
 ****************/
 
 // Creazione Promise
-const recuperaMessaggio = new Promise((resolve) => {
+const recuperaMessaggio = new Promise((resolve, reject) => {
 
     setTimeout(() => {
         resolve("Dati recuperati correttamente")

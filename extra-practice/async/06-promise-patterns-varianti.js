@@ -24,7 +24,7 @@ const prodotti = [
 ];
 
 // Creazione messaggio iniziale
-const messaggioIniziale = new Promise(resolve => {
+const messaggioIniziale = new Promise((resolve, reject) => {
     setTimeout(() => {
         resolve("Benvenuto nella nostra applicazione!");
     }, 1000);
